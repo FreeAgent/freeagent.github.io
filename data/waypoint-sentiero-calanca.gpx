@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Visualizer Sandbox https://www.gpsvisualizer.com/draw/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="46.41322" lon="9.16311">
+    <name>Rifugio Plan Grand</name>
+    <sym>Campground</sym>
+  </wpt>
+  <wpt lat="46.38151" lon="9.16373">
+    <name>Rifugio Ganan</name>
+    <sym>Campground</sym>
+  </wpt>
+  <wpt lat="46.35090" lon="9.14842">
+    <name>Rifugio Capanna Buffalora</name>
+    <sym>Campground</sym>
+  </wpt>
+  <wpt lat="46.29709" lon="9.13904">
+    <name>Rifugio Alp di Fora</name>
+    <sym>Campground</sym>
+  </wpt>
+</gpx>
