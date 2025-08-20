@@ -1,7 +1,7 @@
 // Service worker
 let loc =  document.location.hostname.toString();
 if ('serviceWorker' in navigator && !loc.includes('localhost') && !loc.includes('192.')) {
-  const x = navigator.serviceWorker.register('/sw.js').then((registration) => {
+  const x = navigator.serviceWorker.register('./sw.js').then((registration) => {
     console.log('Service worker registration succeeded:', registration);
   }, /*catch*/ (error) => {
     console.error(`Service worker registration failed: ${error}`);
@@ -195,7 +195,7 @@ var controlElevation = L.control.elevation(elevation_options).addTo(map);
 controlElevation._resetView = () => null;
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation.load("/data/sentiero-alpino-calanca.gpx");
+controlElevation.load("data/sentiero-alpino-calanca.gpx");
 
 // Double tapping elevation map toggles zoom level
 let zoomLevels = [100, 200, 400, 800];
