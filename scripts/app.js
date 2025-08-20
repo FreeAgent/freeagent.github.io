@@ -195,7 +195,7 @@ var controlElevation = L.control.elevation(elevation_options).addTo(map);
 controlElevation._resetView = () => null;
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation.load("/data/knobstone-trail-kt.gpx");
+controlElevation.load("/data/sentiero-alpino-calanca.gpx");
 
 // Double tapping elevation map toggles zoom level
 let zoomLevels = [100, 200, 400, 800];
@@ -239,7 +239,7 @@ for(let i=0; i <= 50; i++) {
     popupAnchor: null,
   });
 }
-const gpxFile = 'data/knobstone-sites.gpx';
+const gpxFile = 'data/waypoint-sentiero-calanca.gpx';
 const gif = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 const g = new L.GPX(gpxFile, {
     async: true,
