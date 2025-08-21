@@ -170,7 +170,7 @@ var elevation_options = {
   timestamps: false,
 
   // Display track waypoints: true || "markers" || "dots" || false
-  waypoints: false,
+  waypoints: "dots",
 
   // Toggle custom waypoint icons: true || { associative array of <sym> tags } || false
   wptIcons: {
