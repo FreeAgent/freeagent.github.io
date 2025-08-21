@@ -122,7 +122,7 @@ var elevation_options = {
   autofitBounds: true,
 
   // Chart distance/elevation units.
-  imperial: true,
+  imperial: false,
 
   // [Lat, Long] vs [Long, Lat] points. (leaflet default: [Lat, Long])
   reverseCoords: false,
