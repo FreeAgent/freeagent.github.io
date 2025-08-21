@@ -107,7 +107,7 @@ var elevation_options = {
   autohide: false,
 
   // if (!detached) initial state of chart profile control
-  collapsed: true,
+  collapsed: false,
   
   // if (!detached) control position on one of map corners
   position: "topright",
